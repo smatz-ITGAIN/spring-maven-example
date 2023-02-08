@@ -1,0 +1,1 @@
+INSERT INTO app_user (name, admin) VALUES ('admin', TRUE), ('user', FALSE);

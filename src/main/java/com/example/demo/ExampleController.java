@@ -10,5 +10,4 @@ public class ExampleController {
 	public String hello() {
 		return "Hello Example from ExampleController";
 	}
-
 }
