@@ -11,4 +11,8 @@ public class ExampleController {
 		return "Hello Example from ExampleController";
 	}
 
+	@GetMapping(value = "/greet")
+	public String hello() {
+		return "Hello Akademie";
+	}
 }
