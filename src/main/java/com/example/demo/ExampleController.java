@@ -10,9 +10,4 @@ public class ExampleController {
 	public String hello() {
 		return "Hello Example from ExampleController";
 	}
-
-	@GetMapping(value = "/greet")
-	public String greet() {
-		return "Hello Example from Akademie 2024";
-	}
 }
